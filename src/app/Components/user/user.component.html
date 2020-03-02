@@ -1,0 +1,11 @@
+
+<div class="card mb-3">
+    <img [src]="_userService.img" class="card-img-top mediana mx-auto" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{_userService.Funcion}} <br>
+        <small> {{_userService.Nombre+' '+_userService.Apellido}} </small> </h5>
+      <p class="card-text">{{_userService.Descripcion}} </p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+    <button [routerLink]="[ '/Users']" class="btn btn-outline-primary"  >Retornar.</button>
+  </div>

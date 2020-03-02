@@ -1,0 +1,19 @@
+
+<div class="card" style="width: 18rem;">
+
+    <div class="card-body">
+      <h5 class="card-title">{{user.Funcion}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{user.Nombre+' '+user.Apellido}} </h6>
+      <p class="card-text">{{user.Descripcion}}</p>
+
+        <button (click)="verUsuario()"  class=" btn btn-outline-danger btn-block">
+          Ver mas ... </button>
+
+        <!-- <a 
+      routerLinkActive="active"
+      class="btn btn-outline-primary btn-block">
+        Ver mas.. 
+      </a> -->
+
+    </div>
+  </div>
